@@ -1,0 +1,206 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  width: 100px;
+}
+
+#title {
+  text-align: center;
+  justify-content: center !important;
+  margin-top: 0;
+  margin-bottom: 5pc solid white;
+  padding-bottom: 5pc !important;
+  align-content: center !important;
+  height: 100vh; /* This sets the height to 75vh */
+  min-height: 100vh;
+  margin-bottom: 5pc !important;
+}
+
+.iphone-image{
+  position: relative;
+  margin-left: 700px; 
+  width: auto;
+  height: 40pc;
+  padding: 20px;
+  bottom: 387px;
+}
+
+.d-inline-flex{
+  background-color: aliceblue !important;
+  color: #000;
+}
+
+.my_class {
+  position: relative;
+  top: 300px;
+  margin-right: 400px; 
+  width: auto;
+  height: 30pc;
+  padding: 0;  
+}
+
+.new_hope{
+  position: relative;
+  top: 10px;
+  margin-right: 144px; 
+  width: auto;
+  height: 30pc;
+}
+
+.custom-muted.text-muted {
+  color: black !important; /* Override the muted gray color with black */
+  font-weight: bold; /* Make the text bold */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3pc!important;
+  text-align: justify;
+  line-height: 90%;
+}
+
+#hanging-icons{
+  background-color: beige!important;
+  height: 40vh;
+  color: black !important;
+  align-items: center;
+  margin-top: solid white 10px;
+  
+  justify-content: center; 
+  margin-bottom: solid white 20px;
+}
+
+#features{
+  height: 50vh;
+  background-color: beige;
+  box-shadow: wheat 5px 5px 5px;
+  margin-top: 20px;
+}
+
+.bg-body-tertiary{
+  background-color: beige !important;
+  color: black !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fs-2 {
+  color: black !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon-square {
+  background-color: lightgrey !important; /* Light grey */
+  color: #000 !important;/* Black text */
+  border: 1px solid #ddd; /* Light border */
+}
+
+.profile_text{
+  font-size: 1rem !important;
+  padding: 20px;
+}
+
+#testimonial{
+  height: auto;
+  width: auto;
+  padding-left: 80px;
+  padding-right: 70px;
+  align-items: center; 
+  justify-content: center; 
+  background-color: beige !important;
+  border-bottom: beige 50px solid;
+  border-top: beige 10px solid;
+  margin-bottom: 20px solid beige !important;
+  margin-top: 20px solid beige !important;
+}
+
+.testimonial_text{
+  font-size: 35px !important;
+  padding: 20px;
+  overflow-wrap: break-word;
+}
+
+.image-fluid{
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}
+
+
+#pricing{
+  justify-content: center !important;
+  align-content: center;
+  padding-top: 1pc solid white;
+  width: auto;
+  height: auto;
+  background-color: white !important;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+
+}
+
+.price_header{
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  left: 100px;
+  right: 200px;
+}
+.price_paragraph{
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  padding-left: 200px;
+}
+
+.card-body{
+  background-color: white !important;
+  color: black !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-header{
+  background-color: rgb(243, 236, 236);
+  color: #000;
+}
+
+.card {
+  border: #000 1px solid !important;
+}
+
+#footer {
+  height: 15vh;
+
+}
+
+.the_footer {
+  padding: 40px;
+  color: black !important;
+}
+
+.text-body-secondary {
+  color: grey!important;
+}
